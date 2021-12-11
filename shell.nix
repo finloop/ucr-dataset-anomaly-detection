@@ -3,7 +3,7 @@ let
   mach-nix = import (builtins.fetchGit {
     url = "https://github.com/DavHau/mach-nix/";
     ref = "master";
-  }) { python = "python37"; };
+  }) { python = "python38"; };
   customPython = mach-nix.mkPython rec {
     providers._default = "wheel,conda,nixpkgs,sdist";
     requirements = builtins.readFile ./requirements.txt; 

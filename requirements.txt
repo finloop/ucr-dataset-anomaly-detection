@@ -4,8 +4,7 @@ matplotlib
 seaborn
 statsmodels
 scipy
-jupyter
 jupyterlab
-pytorch
+torch
 pytorch-lightning
 pyod
